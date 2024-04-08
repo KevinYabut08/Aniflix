@@ -20,13 +20,7 @@
       },
     }"
   >
-    <SwiperSlide
-      v-for="(slide, idx) in slides"
-      :key="idx"
-      :style="`background-color: ${slide.bg}; color: ${slide.color}`"
-    >
-      {{ idx }}
-    </SwiperSlide>
+    <SwiperSlide> </SwiperSlide>
     <SwiperControls />
   </Swiper>
 </template>
