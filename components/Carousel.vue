@@ -17,7 +17,7 @@
       <div class="absolute">
         <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
       </div>
-      <p class="relative bg-slate-500 opacity-80 mt-[410px]">
+      <p class="relative bg-slate-500 opacity-80 mt-[415px]">
         One Piece is a Japanese manga series written and illustrated by Eiichiro
         Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly
         Shōnen Jump since July 1997, with its individual chapters compiled in
