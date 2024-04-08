@@ -1,0 +1,12 @@
+<template>
+  <div>
+    <form>
+      <input
+        class="rounded-[5px]"
+        type="text"
+        placeholder="Search.."
+        name="search"
+      />
+    </form>
+  </div>
+</template>
