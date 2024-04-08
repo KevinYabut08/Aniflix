@@ -20,7 +20,18 @@
       },
     }"
   >
-    <SwiperSlide> </SwiperSlide>
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
+    </SwiperSlide>
     <SwiperControls />
   </Swiper>
 </template>
