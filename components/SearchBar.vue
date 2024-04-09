@@ -1,7 +1,23 @@
 <script setup>
-fetch("https://nekos.best/api/v2/neko")
-  .then((response) => response.json())
-  .then((json) => console.log(json.results[0].url));
+const search_query = ref("");
+const animelist = ref([]);
+
+const HandleSearch = async () => {
+  animelist.value = await fetch(
+    `https://api.jikan.moe/v3/search/anime?q=${search_query.value}`
+  )
+    .then((res) => res.json())
+    .then((data) => data.results);
+
+  search_query.value = "";
+};
+
+return {
+  Card,
+  search_query,
+  animelist,
+  HandleSearch,
+};
 </script>
 <template>
   <div>
@@ -10,7 +26,7 @@ fetch("https://nekos.best/api/v2/neko")
         class="rounded-[5px]"
         type="text"
         id="animeTitle"
-        placeholder="Search.."
+        placeholder="Search for an anime"
         name="search"
       />
       <button
@@ -21,4 +37,5 @@ fetch("https://nekos.best/api/v2/neko")
       </button>
     </form>
   </div>
+  <div><SearchCard /></div>
 </template>
