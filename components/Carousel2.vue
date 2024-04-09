@@ -20,12 +20,17 @@
       },
     }"
   >
-    <SwiperSlide
-      v-for="(slide, idx) in slides"
-      :key="idx"
-      :style="`background-color: ${slide.bg}; color: ${slide.color}`"
-    >
-      {{ idx }}
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
+    </SwiperSlide>
+    <SwiperSlide>
+      <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
     </SwiperSlide>
     <SwiperControls />
   </Swiper>
