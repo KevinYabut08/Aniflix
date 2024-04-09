@@ -1,3 +1,5 @@
 <script></script>
-<template><TheNav /></template>
+<template>
+  <TheNav />
+</template>
 <style></style>

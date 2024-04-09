@@ -50,6 +50,12 @@ async function login() {
           <input
             class="bg-slate-100 text-slate-900 hover:bg-purple-800 hover:text-white rounded-[5px]"
             type="submit"
+            value="SIGN UP"
+            @click="login"
+          />
+          <input
+            class="bg-slate-100 text-slate-900 hover:bg-purple-800 hover:text-white rounded-[5px]"
+            type="submit"
             value="LOGIN"
             @click="login"
           />

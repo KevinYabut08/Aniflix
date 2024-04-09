@@ -1,4 +1,8 @@
-<script setup></script>
+<script setup>
+fetch("https://nekos.best/api/v2/neko")
+  .then((response) => response.json())
+  .then((json) => console.log(json.results[0].url));
+</script>
 <template>
   <div>
     <form>
