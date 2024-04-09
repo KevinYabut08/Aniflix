@@ -6,41 +6,41 @@
     class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[100px]"
   >
     <img
-      src="assets/images/slime.jpg"
+      src="/assets/images/chainsaw-man-vol-1-9781974709939_hr.jpg"
       class="grid md:grid-rows-1"
-      alt="slime"
+      alt="chainsaw-man"
     />
-    <h2>That Time I got Reicarnated as a Slime</h2>
+    <h2>Chainsawman</h2>
   </div>
   <div
     class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[150px]"
   >
     <img
-      src="assets/images/solo-leveling.webp"
+      src="assets/images/city-hunter.avif"
       class="grid md:grid-rows-1"
-      alt="solo-leveling"
+      alt="city-hunter"
     />
-    <h2>Solo-Leveling</h2>
+    <h2>City-Hunter</h2>
   </div>
   <div
     class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[150px]"
   >
     <img
-      src="assets/images/black-clover-one-sheet-premium-poster_u-L-F9PHEF0.jpg"
+      src="assets/images/opm-poster.jpg"
       class="grid md:grid-rows-1"
-      alt="black-clover"
+      alt="one-punch-man"
     />
-    <h2>Black Clover</h2>
+    <h2>One Punch Man</h2>
   </div>
   <div
     class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[100px]"
   >
     <img
-      src="assets/images/noblesse.jpg"
+      src="assets/images/naruto-shippuden.jpg"
       class="grid md:grid-rows-1"
-      alt="noblesse"
+      alt="naruto"
     />
-    <h2>Noblesse</h2>
+    <h2>Naruto</h2>
   </div>
 </template>
 <style></style>
