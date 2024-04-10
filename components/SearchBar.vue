@@ -1,24 +1,4 @@
-<script setup>
-const search_query = ref("");
-const animelist = ref([]);
-
-const HandleSearch = async () => {
-  animelist.value = await fetch(
-    `https://api.jikan.moe/v3/search/anime?q=${search_query.value}`
-  )
-    .then((res) => res.json())
-    .then((data) => data.results);
-
-  search_query.value = "";
-};
-
-return {
-  Card,
-  search_query,
-  animelist,
-  HandleSearch,
-};
-</script>
+<script setup></script>
 <template>
   <div>
     <form>
@@ -37,5 +17,4 @@ return {
       </button>
     </form>
   </div>
-  <div><SearchCard /></div>
 </template>
