@@ -3,6 +3,16 @@ const swiper = useSwiper();
 </script>
 
 <template>
-  <button @click="swiper.slideNext()">Next</button>
-  <button @click="swiper.slidePrev()">Previous</button>
+  <button
+    class="bg-purple-500 rounded-[5px] text-[20px] p-[5px] font-serif hover:bg-slate-400"
+    @click="swiper.slidePrev()"
+  >
+    PREV
+  </button>
+  <button
+    class="bg-purple-500 rounded-[5px] text-[20px] p-[5px] font-serif hover:bg-slate-400"
+    @click="swiper.slideNext()"
+  >
+    NEXT
+  </button>
 </template>

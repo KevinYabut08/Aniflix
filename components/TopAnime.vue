@@ -29,7 +29,7 @@ const onlyFirstFew = computed(() => {
 
 const router = useRouter();
 const goAnimePage = (anime) => {
-  router.push(`/pages/anime/[[id]].vue${anime.mal_id}`);
+  router.push(`/anime/${anime.mal_id}`);
 };
 </script>
 
