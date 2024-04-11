@@ -1,3 +1,3 @@
 <script></script>
-<template><TheNav /></template>
+<template><main></main></template>
 <style></style>

@@ -1,6 +1,9 @@
 <script></script>
 <template>
-  <TheNav />
-  <Carousel2 />
+  <main>
+    <div>
+      <Carousel2 />
+    </div>
+  </main>
 </template>
 <style></style>
