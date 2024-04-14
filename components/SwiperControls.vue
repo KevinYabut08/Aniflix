@@ -10,7 +10,7 @@ const swiper = useSwiper();
     PREV
   </button>
   <button
-    class="bg-purple-500 rounded-[5px] text-[20px] p-[5px] font-serif hover:bg-slate-400"
+    class="bg-purple-500 rounded-[5px] text-[20px] p-[5px] font-serif hover:bg-slate-400 ml-[10px]"
     @click="swiper.slideNext()"
   >
     NEXT

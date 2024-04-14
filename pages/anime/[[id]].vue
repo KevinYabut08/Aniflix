@@ -38,19 +38,9 @@
             </template>
           </Cards-3>
         </div>
-        <div class="h-48">
-          <h3 class="font-semibold">Episodes</h3>
-          <hr />
-          <button
-            class="px-5 py-3 mx-1 my-2 shadow-md rounded-md"
-            v-for="ep in response.episodes"
-          >
-            {{ ep }}
-          </button>
-        </div>
       </div>
       <div v-else>
-        <h1>loading...</h1>
+        <LoadingSpinner />
       </div>
     </div>
   </main>

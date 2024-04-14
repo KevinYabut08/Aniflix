@@ -48,5 +48,17 @@
         allowfullscreen
       ></iframe>
     </SwiperSlide>
+    <SwiperSlide
+      ><iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/iDqsuA_Ogjk?si=2-wIP5LXdp1l2VBe"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe
+    ></SwiperSlide>
   </Swiper>
 </template>
