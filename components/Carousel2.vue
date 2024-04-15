@@ -6,10 +6,6 @@
     :slides-per-view="1"
     :loop="true"
     :effect="'creative'"
-    :autoplay="{
-      delay: 5000,
-      disableOnInteraction: true,
-    }"
     :creative-effect="{
       prev: {
         shadow: false,
@@ -22,7 +18,7 @@
   >
     <SwiperSlide
       ><iframe
-        width="1000"
+        width="1550"
         height="600"
         src="https://www.youtube.com/embed/e8hQsNouBR4?si=Z1sQuMHkllJiW1DR"
         title="YouTube video player"
@@ -34,7 +30,7 @@
     </SwiperSlide>
     <SwiperSlide
       ><iframe
-        width="1000"
+        width="1550"
         height="600"
         src="https://www.youtube.com/embed/2Yk-68Fx_HM?si=CpEgWwPXwD9JeRdw"
         title="YouTube video player"
@@ -46,7 +42,7 @@
     </SwiperSlide>
     <SwiperSlide
       ><iframe
-        width="1000"
+        width="1550"
         height="600   "
         src="https://www.youtube.com/embed/6xWfTkL4MEE?si=JPjypLUoe3veRU_u"
         title="YouTube video player"
@@ -58,7 +54,7 @@
     </SwiperSlide>
     <SwiperSlide
       ><iframe
-        width="1000"
+        width="1550"
         height="600"
         src="https://www.youtube.com/embed/DcofRCnm20E?si=iepFX-LESco2JfXT"
         title="YouTube video player"
@@ -70,7 +66,7 @@
     </SwiperSlide>
     <SwiperSlide>
       <iframe
-        width="1000"
+        width="1550"
         height="600"
         src="https://www.youtube.com/embed/ZK3qs1CWrMg?si=cF4paklJZ9PsC9tj"
         title="YouTube video player"
@@ -80,6 +76,9 @@
         allowfullscreen
       ></iframe
     ></SwiperSlide>
+    <div class="mt-[5px]">
+      <SwiperControls />
+    </div>
   </Swiper>
 </template>
 <style></style>
