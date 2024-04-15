@@ -1,25 +1,4 @@
-<script setup>
-fetchData();
-
-async function fetchData() {
-  try {
-    const animeTitle = document.getElementById(animeTitle).value;
-
-    const response = await fetch(
-      "https://api.jikan.moe/v4/anime/{id}/${animeTitle}"
-    );
-
-    if (!response.ok) {
-      throw new Error("Anime not found");
-    }
-
-    const data = await response.json();
-    console.console.log(data);
-  } catch (error) {
-    console.error(error);
-  }
-}
-</script>
+<script setup></script>
 <template>
   <div>
     <form>
@@ -27,12 +6,12 @@ async function fetchData() {
         class="rounded-[5px]"
         type="text"
         id="animeTitle"
-        placeholder="Search.."
+        placeholder="Search for an anime"
         name="search"
       />
       <button
+        type="submit"
         class="dark:bg-slate-900 rounded-[5px] bg-slate-100 ml-[5px]"
-        onclick="fetchData"
       >
         Search
       </button>
