@@ -1,6 +1,8 @@
 <template>
-  <main class="bg-[url('')]">
-    <TheNav />
+  <main
+    class="bg-[url('/assets/images/full-moon-lake-tree-mountain-scenery-phone-wallpaper-4k-uhdpaper.com-137@3@a.jpg')] bg-cover"
+  >
+    <NavBar />
     <div>
       <div class="header"></div>
       <div class="max-w-6xl shadow-md m-auto min-h-screen pt-3">
@@ -54,10 +56,6 @@ async function getData() {
     if (data.value) {
       response.value = data.value.data;
     }
-
-    const { data: result } = await useLazyFetch(
-      "https://api.jikan.moe/v4/top/anime"
-    );
     if (result.value) {
       topAnime.value = result.value.data;
     }

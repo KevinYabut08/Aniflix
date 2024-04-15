@@ -1,5 +1,7 @@
 <template>
-  <main class="bg-[url('')]">
+  <main
+    class="bg-[url('/assets/images/night-sky-stars-clouds-scenery-landscape-anime-digital-art-phone-wallpaper-4k-uhdpaper.com-768@0@i.jpg')] bg-cover"
+  >
     <div class="text-center">
       <div v-if="response.title">
         <div class="flex justify-center">

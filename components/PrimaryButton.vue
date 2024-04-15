@@ -2,7 +2,7 @@
 
 <template>
   <button
-    class="border-2 font-serif p-[10px] rounded-[5px] hover:scale-105 hover:ring-accent2/90"
+    class="border-2 font-serif p-[10px] rounded-[5px] hover:scale-105 hover:ring-accent2/90 backdrop-blur"
   >
     <slot>More Info</slot>
   </button>

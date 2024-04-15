@@ -1,7 +1,9 @@
 <script></script>
 <template>
-  <div class="relative">
-    <NuxtLink class="absolute z-40 flex mt-[10px]" to="/home">
+  <div
+    class="hidden md:flex md:justify-center relative bg-opacity-30 backdrop-blur"
+  >
+    <NuxtLink class="z-40 mt-[10px] mr-[800px]" to="/home">
       <Logo />
     </NuxtLink>
     <ul class="flex justify-end gap-[70px] opacity-80 p-[30px] font-serif">

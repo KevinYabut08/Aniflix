@@ -1,7 +1,9 @@
 <script></script>
 <template class="Lato">
-  <main>
-    <TheNav />
+  <main
+    class="bg-[url('/assets/images/goku-dragon-ball-phone-wallpaper-4k-uhdpaper.com-265@3@a.jpg')] bg-cover"
+  >
+    <NavBar />
     <header>
       <div class="absolute">
         <Carousel />
@@ -47,6 +49,11 @@
       <div class="ml-[500px]">
         <Carousel3 />
       </div>
+      <NuxtLink to="/news">
+        <PrimaryButton class="ml-[70px] mt-[20px]"
+          >More Anime News</PrimaryButton
+        ></NuxtLink
+      >
     </div>
     <TheFooter />
   </main>

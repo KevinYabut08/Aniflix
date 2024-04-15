@@ -11,7 +11,6 @@ async function login() {
       email: email.value,
       password: password.value,
     });
-    console.log("login", data, error);
     if (error) throw error;
     router.push("/home");
   } catch (error) {

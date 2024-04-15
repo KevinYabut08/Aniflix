@@ -12,7 +12,6 @@ async function signUp() {
       email: email.value,
       password: password.value,
     });
-    console.log("data", data, email, password);
     if (error) throw error;
     successMsg.value = "Check your email to confirm your account";
     router.push("/login");

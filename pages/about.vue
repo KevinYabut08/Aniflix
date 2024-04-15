@@ -1,13 +1,13 @@
 <script></script>
 <template>
-  <header>
-    <TheNav />
-  </header>
-  <main class="bg-[url('/assets/images/chainsaw-man-poster.webp')] bg-cover">
+  <main
+    class="bg-[url('/assets/images/luffy-scar-one-piece-4k-wallpaper-uhdpaper.com-264@3@a.jpg')] bg-cover"
+  >
+    <NavBar />
     <div
       class="font-serif ml-[250px] w-[500px] bg-slate-400 opacity-80 absolute"
     >
-      <h1 class="text-[40px] font-serif ml-[150px]">ABOUT US</h1>
+      <h1 class="text-[40px] font-serif">ABOUT US</h1>
       <div class="text-center">
         <p>
           At Aniflix, we believe that anime is more than just entertainment;
@@ -82,9 +82,9 @@
         </p>
       </div>
     </div>
+    <footer>
+      <TheFooter />
+    </footer>
   </main>
-  <footer>
-    <TheFooter />
-  </footer>
 </template>
 <style></style>
