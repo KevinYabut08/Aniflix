@@ -3,7 +3,7 @@
   class="narrowCard dark:bg-darkColor grid gap-6 grid-cols-2 md:grid-cols-4 w-4/5 mx-auto pb-6"
 >
   <div
-    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[100px]"
+    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 md:w-[300px] md:h-[100px] w-[180px] h-[70px]"
   >
     <NuxtLink to="https://youtu.be/l96zmDlWCBk?si=sX-8hMzIhm6QpPRu">
       <img
@@ -14,7 +14,7 @@
     <h2>Chainsawman</h2>
   </div>
   <div
-    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[150px]"
+    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 md:w-[300px] md:h-[100px] w-[180px] h-[70px]"
   >
     <NuxtLink to="https://youtu.be/lYlIeUpY6WQ?si=PV7vol2VyVSk9_Zk">
       <img
@@ -25,7 +25,7 @@
     <h2>City-Hunter</h2>
   </div>
   <div
-    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[150px]"
+    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 mt-[100px] md:mt-[0px] md:w-[300px] md:h-[100px] w-[180px] h-[70px]"
   >
     <NuxtLink to="https://youtu.be/Poo5lqoWSGw?si=Z8ON0Rou8qIvHwPZ">
       <img
@@ -36,7 +36,7 @@
     <h2>One Punch Man</h2>
   </div>
   <div
-    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 w-[300px] h-[100px]"
+    class="bg-lightColor dark:bg-secondary min-h-60 transition ease-in-out delay-150 hover:scale-105 duration-200 mt-[100px] md:mt-[0px] md:w-[300px] md:h-[100px] w-[180px] h-[70px]"
   >
     <NuxtLink to="https://youtu.be/22R0j8UKRzY?si=e_A3NKKXShGWrjwQ">
       <img

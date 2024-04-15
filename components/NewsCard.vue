@@ -1,7 +1,7 @@
 <template
   class="narrowCard dark:bg-darkColor grid gap-6 grid-cols-2 md:grid-cols-4 w-4/5 mx-auto pb-6"
 >
-  <div>
+  <div class="mt-[20px]">
     <iframe
       width="350"
       height="165"
@@ -13,7 +13,7 @@
       allowfullscreen
     ></iframe>
   </div>
-  <div>
+  <div class="mt-[20px]">
     <iframe
       width="350"
       height="165"
@@ -25,7 +25,7 @@
       allowfullscreen
     ></iframe>
   </div>
-  <div>
+  <div class="mt-[20px]">
     <iframe
       width="350"
       height="165"

@@ -10,14 +10,14 @@
       delay: 4000,
       disableOnInteraction: true,
     }"
-    class="w-[1000px] h-[500px] relative font-serif"
+    class="w-[450px] h-[380px] relative font-serif text-[10px] md:w-[1000px] md:h-[500px] md:relative md:text-[15px]"
     style="margin-left: 0px"
   >
     <SwiperSlide>
       <div class="absolute">
         <img src="/assets/images/one-piece-egghead-anime-poster.webp" />
       </div>
-      <p class="relative bg-slate-500 opacity-80 mt-[400px]">
+      <p class="relative bg-slate-500 opacity-80 mt-[225px] md:mt-[400px]">
         One Piece is a Japanese manga series written and illustrated by Eiichiro
         Oda. It has been serialized in Shueisha's shōnen manga magazine Weekly
         Shōnen Jump since July 1997, with its individual chapters compiled in
@@ -29,9 +29,9 @@
     </SwiperSlide>
     <SwiperSlide>
       <div class="absolute">
-        <img src="/assets/images/one-punch-man.jpg" />
+        <img src="/assets/images/one-punch-man.jpg " />
       </div>
-      <p class="relative bg-slate-500 opacity-70 mt-[430px]">
+      <p class="relative bg-slate-500 opacity-70 mt-[240px] md:mt-[430px]">
         One-Punch Man (Japanese: ワンパンマン, Hepburn: Wanpanman) is a Japanese
         superhero manga series created by One. It tells the story of Saitama, a
         superhero who, because he can defeat any opponent with a single punch,
@@ -43,7 +43,7 @@
       <div class="absolute">
         <img src="/assets/images/jujutsu-kaisen.webp" />
       </div>
-      <p class="relative bg-slate-500 opacity-70 mt-[360px]">
+      <p class="relative bg-slate-500 opacity-70 mt-[180px] md:mt-[380px]">
         Jujutsu Kaisen (呪術廻戦, rgh. "Sorcery Battle")[b] is a Japanese manga
         series written and illustrated by Gege Akutami. It has been serialized
         in Shueisha's shōnen manga magazine Weekly Shōnen Jump since March 2018,
@@ -61,7 +61,7 @@
       <div class="absolute">
         <img src="/assets/images/bluelock-1024x538.png" />
       </div>
-      <p class="relative bg-slate-500 opacity-70 mt-[430px]">
+      <p class="relative bg-slate-500 opacity-70 mt-[240px] md:mt-[430px]">
         Blue Lock (Japanese: ブルーロック, Hepburn: Burū Rokku) (stylized as
         BLUELOCK) is a Japanese manga series written by Muneyuki Kaneshiro and
         illustrated by Yusuke Nomura. It has been serialized in Kodansha's

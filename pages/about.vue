@@ -1,11 +1,15 @@
-<script></script>
+<script setup>
+definePageMeta({
+  middleware: ["auth"],
+});
+</script>
 <template>
   <main
     class="bg-[url('/assets/images/luffy-scar-one-piece-4k-wallpaper-uhdpaper.com-264@3@a.jpg')] bg-cover"
   >
     <NavBar />
     <div
-      class="font-serif ml-[250px] w-[500px] bg-slate-400 opacity-80 absolute"
+      class="font-serif ml-[0px] md:ml-[250px] w-[500px] bg-slate-400 opacity-80 md:absolute"
     >
       <h1 class="text-[40px] font-serif">ABOUT US</h1>
       <div class="text-center">

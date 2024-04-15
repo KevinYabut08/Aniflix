@@ -1,6 +1,8 @@
 <script></script>
 <template>
-  <footer class="flex flex-col space-y-10 justify-center m-0 backdrop-blur">
+  <footer
+    class="flex flex-col space-y-10 justify-center m-0 backdrop-blur font-serif"
+  >
     <nav class="flex justify-center flex-wrap gap-6 font-medium">
       <NuxtLink class="hover:text-purple-500" to="/home">Home</NuxtLink>
       <NuxtLink class="hover:text-purple-500" to="/animePage">Anime</NuxtLink>

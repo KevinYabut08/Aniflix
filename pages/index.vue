@@ -20,7 +20,7 @@
     </div>
     <br /><br />
     <p class="bg-purple-400 rounded-[10px] p-[50px] opacity-80 text-[25px]">
-      Welcome to Aniflix, your gateway to the mesmerizing world of Japanese
+      Welcome to Aniflix, your gateway to the mesmerizing world of anime
       animation! Immerse yourself in a kaleidoscope of vibrant colors,
       captivating stories, and unforgettable characters as you explore our
       extensive collection of anime series and movies. Whether you're a seasoned

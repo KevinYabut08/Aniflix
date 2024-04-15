@@ -44,7 +44,7 @@
         </div>
       </div>
     </div>
-    <div class="ml-[200px]">
+    <div class="text-start ml-[20px]">
       <NuxtLink to="/moreAnime"
         ><PrimaryButton>More Anime</PrimaryButton></NuxtLink
       >
@@ -54,6 +54,10 @@
 </template>
 
 <script setup>
+definePageMeta({
+  middleware: ["auth"],
+});
+
 const topAnime = ref(null);
 const response = ref([]);
 

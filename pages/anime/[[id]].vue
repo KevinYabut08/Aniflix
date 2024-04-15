@@ -31,14 +31,14 @@
             </template>
           </Cards-3>
         </div>
-        <div class="text-center font-serif w-[1525px]">
+        <div class="text-center font-serif w-full">
           <h3 class="font-semibold">Synopsis</h3>
           <hr />
-          <Cards-3 class="min-w-full">
+          <Sypnosis class="min-w-full">
             <template #content>
               {{ response.synopsis }}
             </template>
-          </Cards-3>
+          </Sypnosis>
         </div>
       </div>
       <div v-else>
