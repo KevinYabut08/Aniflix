@@ -38,6 +38,7 @@
         <NuxtLink to="/about" class="block">About</NuxtLink>
       </li>
     </ul>
+    <Logout />
     <ThemeToggle />
   </div>
 </template>

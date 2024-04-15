@@ -1,4 +1,8 @@
-<script></script>
+<script setup>
+definePageMeta({
+  middleware: ["auth"],
+});
+</script>
 <template class="Lato">
   <main
     class="bg-[url('/assets/images/goku-dragon-ball-phone-wallpaper-4k-uhdpaper.com-265@3@a.jpg')] bg-cover"
