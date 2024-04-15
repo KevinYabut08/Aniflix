@@ -1,12 +1,20 @@
+<script setup></script>
 <template>
   <div>
     <form>
       <input
         class="rounded-[5px]"
         type="text"
-        placeholder="Search.."
+        id="animeTitle"
+        placeholder="Search for an anime"
         name="search"
       />
+      <button
+        type="submit"
+        class="dark:bg-slate-900 rounded-[5px] bg-slate-100 ml-[5px]"
+      >
+        Search
+      </button>
     </form>
   </div>
 </template>
