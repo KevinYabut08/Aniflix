@@ -4,9 +4,7 @@ definePageMeta({
 });
 </script>
 <template>
-  <main
-    class="bg-[url('/assets/images/cherry-blossom-snowy-mountain-scenery-digital-art-phone-wallpaper-4k-uhdpaper.com-933@0@i.jpg')] bg-cover"
-  >
+  <main>
     <NavBar /><br />
     <div>
       <Carousel2 />

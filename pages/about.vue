@@ -9,7 +9,7 @@ definePageMeta({
   >
     <NavBar />
     <div
-      class="font-serif ml-[0px] md:ml-[250px] w-[500px] bg-slate-400 opacity-80 md:absolute"
+      class="font-serif ml-[0px] md:ml-[250px] w-[450px] md:w-[500px] bg-cyan-700 dark:bg-purple-900 backdrop-blur opacity-80 md:absolute"
     >
       <h1 class="text-[40px] font-serif">ABOUT US</h1>
       <div class="text-center">
@@ -47,7 +47,7 @@ definePageMeta({
     </div>
     <div>
       <div
-        class="font-serif w-[500px] bg-slate-400 opacity-80 text-center ml-[850px]"
+        class="font-serif w-[450px] md:w-[500px] bg-cyan-700 dark:bg-purple-900 backdrop-blur opacity-80 text-center ml-[0px] md:ml-[850px] md:mt-[0px] mt-[40px]"
       >
         <h1 class="text-[40px] font-serif">CONTACT US</h1>
         <br /><br />

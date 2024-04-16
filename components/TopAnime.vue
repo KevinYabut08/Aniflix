@@ -1,10 +1,10 @@
 <template>
   <div>
-    <div class="card-slider">
+    <div>
       <span v-for="(item, index) in onlyFirstFew" :key="index">
         <img
           :src="item.images.webp.image_url"
-          class="lable"
+          class="transform skew-y-12 inline-block w-[150px] h-[150px] rounded-[5px] relative transition-[0.3] mt-[30px] mb-[30px] hover:transform-none"
           :alt="item.title"
           @click="goAnimePage(item)"
         />
@@ -24,7 +24,7 @@ const { topAnime } = toRefs(props);
 
 const onlyFirstFew = computed(() => {
   if (!topAnime.value) return;
-  return topAnime.value.slice(0, 9);
+  return topAnime.value.slice(0, 12);
 });
 
 const router = useRouter();
@@ -37,23 +37,5 @@ const goAnimePage = (anime) => {
 .card-slider {
   margin: 60px auto;
   text-align: center;
-}
-.lable {
-  position: realtive;
-  margin: 0 -35px;
-  display: inline-block;
-  width: 150px;
-  height: 200px;
-  border-radius: 5px;
-  box-shadow: 0 10px 6px -6px #777;
-  -webkit-transform: skew(-20deg) rotate(-20deg);
-  transform: skew(-20deg) rotate(-20deg);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-.lable:hover {
-  margin: 0 50px;
-  -webkit-transform: none;
-  transform: none;
 }
 </style>

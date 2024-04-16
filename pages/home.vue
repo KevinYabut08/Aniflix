@@ -4,16 +4,14 @@ definePageMeta({
 });
 </script>
 <template class="Lato">
-  <main
-    class="bg-[url('/assets/images/goku-dragon-ball-phone-wallpaper-4k-uhdpaper.com-265@3@a.jpg')] md:bg-cover"
-  >
+  <main>
     <NavBar />
     <header>
       <div class="absolute">
         <Carousel />
       </div>
       <div
-        class="p-[30px] ml-[0] text-[10px] md:text-[16px] md:ml-[1000px] font-serif bg-purple-500 pb-[101px] opacity-70 text-justify relative z-40 top-[300px] md:top-[0px]"
+        class="p-[30px] ml-[0] text-[10px] md:text-[16px] md:ml-[1000px] font-serif bg-cyan-700 dark:bg-purple-500 pb-[101px] opacity-70 text-justify relative z-40 top-[300px] md:top-[0px]"
       >
         <p>
           Welcome to the world of anime, where imagination knows no bounds! Our

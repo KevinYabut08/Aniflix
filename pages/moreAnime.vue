@@ -1,14 +1,12 @@
 <template>
-  <main
-    class="bg-[url('/assets/images/full-moon-lake-tree-mountain-scenery-phone-wallpaper-4k-uhdpaper.com-137@3@a.jpg')] bg-cover"
-  >
+  <main>
     <NavBar />
     <div>
       <div class="header"></div>
       <div class="max-w-6xl shadow-md m-auto min-h-screen pt-3">
         <div class="px-2">
           <div>
-            <div class="h-10 w-full bg-purple-900">
+            <div class="h-10 w-full bg-cyan-700 dark:bg-purple-900">
               <h1 class="text-2xl px-4 text-white font-bold font-serif">
                 Classics
               </h1>

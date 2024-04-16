@@ -1,6 +1,6 @@
 <template>
   <div
-    class="card rounded-md bg-purple-500 bg-opacity-70 shadow-lg mx-2 my-4 w-48 flex flex-col max-w-fit overflow-hidden font-serif hover:bg-slate-500"
+    class="card rounded-md bg-cyan-700 dark:bg-purple-500 bg-opacity-70 shadow-lg mx-2 my-4 w-48 flex flex-col max-w-fit overflow-hidden font-serif hover:bg-slate-500"
   >
     <div class="image overflow-hidden">
       <slot name="image"></slot>
