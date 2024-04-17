@@ -4,13 +4,12 @@
     <div v-if="comments.length === 0" class="text-white">
       No comments yet. Be the first to comment!
     </div>
-    <div v-else>
-      <div
-        v-for="(comment, index) in comments"
-        :key="index"
-        class="mb-4 bg-cyan-blue dark:bg-purple-500 rounded-[5px]"
-      >
-        <div class="flex items-center mb-2 bg-cyan-700 dark:bg-purple-400">
+    <div
+      v-else
+      class="bg-cyan-700 dark:bg-purple-400 rounded-[5px] bg-opacity-80"
+    >
+      <div v-for="(comment, index) in comments" :key="index" class="mb-4">
+        <div class="flex items-center mb-2">
           <span class="font-semibold mr-2 text-white">{{
             comment.author
           }}</span>
