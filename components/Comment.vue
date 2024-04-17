@@ -10,7 +10,7 @@
         :key="index"
         class="mb-4 bg-cyan-blue dark:bg-purple-500 rounded-[5px]"
       >
-        <div class="flex items-center mb-2">
+        <div class="flex items-center mb-2 bg-cyan-700 dark:bg-purple-400">
           <span class="font-semibold mr-2 text-white">{{
             comment.author
           }}</span>
