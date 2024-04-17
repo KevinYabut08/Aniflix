@@ -1,16 +1,22 @@
 <template>
   <div class="p-4 rounded shadow-md">
-    <h2 class="text-xl font-bold mb-4">Comments</h2>
+    <h2 class="text-xl font-bold mb-4 text-white">Comments</h2>
     <div v-if="comments.length === 0">
       No comments yet. Be the first to comment!
     </div>
     <div v-else>
-      <div v-for="(comment, index) in comments" :key="index" class="mb-4">
+      <div
+        v-for="(comment, index) in comments"
+        :key="index"
+        class="mb-4 bg-cyan-blue dark:bg-purple-500 rounded-[5px]"
+      >
         <div class="flex items-center mb-2">
-          <span class="font-semibold mr-2">{{ comment.author }}</span>
-          <span class="text-sm">{{ formatDate(comment.date) }}</span>
+          <span class="font-semibold mr-2 text-white">{{
+            comment.author
+          }}</span>
+          <span class="text-sm text-white">{{ formatDate(comment.date) }}</span>
         </div>
-        <p>{{ comment.text }}</p>
+        <p class="text-white">{{ comment.text }}</p>
       </div>
     </div>
     <form @submit.prevent="addComment" class="mt-4">
@@ -18,13 +24,13 @@
         <textarea
           v-model.trim="newCommentText"
           placeholder="Add a comment..."
-          class="w-full md:w-3/4 p-2 border rounded mb-2 md:mb-0 md:mr-2"
+          class="w-full md:w-3/4 p-2 border rounded mb-2 md:mb-0 md:mr-2 bg-cyan-700 dark:bg-purple-400 text-white"
         ></textarea>
         <input
           v-model.trim="newCommentAuthor"
           type="text"
           placeholder="Your name"
-          class="w-full md:w-1/4 p-2 border rounded"
+          class="w-full md:w-1/4 p-2 border rounded bg-cyan-700 dark:bg-purple-400 text-white"
         />
       </div>
       <button
