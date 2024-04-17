@@ -22,7 +22,10 @@ async function login() {
   <main
     class="bg-[url('/assets/gif/337af398877b856f25624144420a5230.gif')] bg-cover h-screen p-[50px] font-serif"
   >
-    <form @submit.prevent="login">
+    <form
+      @submit.prevent="login"
+      class="bg-slate-400 bg-opacity-80 p-[20px] rounded-[10px] md:mr-[500px] md:ml-[500px] mr-[50px]"
+    >
       <label for="email">
         Email:
         <input type="email" name="email" id="email" v-model="email" /> </label

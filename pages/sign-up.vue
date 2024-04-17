@@ -24,7 +24,10 @@ async function signUp() {
   <main
     class="bg-[url('/assets/gif/220069.gif')] bg-cover h-screen p-[50px] font-serif"
   >
-    <form @submit.prevent="signUp">
+    <form
+      @submit.prevent="signUp"
+      class="bg-slate-400 bg-opacity-80 p-[20px] rounded-[10px] md:mr-[500px] md:ml-[500px] mr-[50px]"
+    >
       <label for="email">
         Email:
         <input type="email" name="email" v-model="email" /> </label
