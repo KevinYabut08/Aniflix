@@ -13,10 +13,11 @@ export default {
       colors: {
         darkColor: "#121212",
         lightColor: "#fffffa",
+      },
+      fontFamily: {
+        titleFont: ['"Lato"', "sans-serif"],
+      },
     },
-    fontFamily: {
-      titleFont: ['"Lato"', "sans-serif"],
-    }
+    plugins: [],
   },
-  plugins: [],
 };

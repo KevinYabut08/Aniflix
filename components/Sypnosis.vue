@@ -4,6 +4,7 @@
       <slot name="content"></slot>
     </div>
   </div>
+  <div><Comment /></div>
 </template>
 
 <script setup></script>
