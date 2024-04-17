@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-cyan-700 dark:bg-purple-500 bg-opacity-80">
+  <div class="bg-cyan-700 dark:bg-purple-500 bg-opacity-80 text-white">
     <div class="content pl-2">
       <slot name="content"></slot>
     </div>
