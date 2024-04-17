@@ -1,7 +1,7 @@
 <template>
   <div class="p-4 rounded shadow-md">
     <h2 class="text-xl font-bold mb-4 text-white">Comments</h2>
-    <div v-if="comments.length === 0">
+    <div v-if="comments.length === 0" class="text-white">
       No comments yet. Be the first to comment!
     </div>
     <div v-else>
