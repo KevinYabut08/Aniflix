@@ -32,7 +32,7 @@
           </Cards-3>
         </div>
         <div class="text-center font-serif w-full">
-          <h3 class="font-semibold">Synopsis</h3>
+          <h3 class="font-semibold text-white">Synopsis</h3>
           <hr />
           <Sypnosis class="min-w-full">
             <template #content>
